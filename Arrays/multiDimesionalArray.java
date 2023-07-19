@@ -1,6 +1,6 @@
 package Arrays;
 
-public class multiDimesionalArray {
+public class MultiDimesionalArray {
 
     public static void main(String[] args) {
         String[][] cities = new String[3][3];
