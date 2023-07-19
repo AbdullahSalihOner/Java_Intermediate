@@ -15,8 +15,9 @@ public class multiDimesionalArray {
         cities[2][1] = "San Diego";
         cities[2][2] = "Dallas";
 
-        for (int i = 0; i < cities.length; i++) {
-            System.out.println(cities[i][i]);
+        for (int i = 0; i <= 2; i++) {
+            for (int j = 0; j <= 2; j++)
+                System.out.println(cities[i][j]);
         }
     }
 }
