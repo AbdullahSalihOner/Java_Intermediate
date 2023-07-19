@@ -7,5 +7,11 @@ public class WhileLoop {
             System.out.println("Hello World");
             i++;
         }
+
+        int k = 1;
+        do {
+            System.out.println( "Hello World" );
+            k += 1;
+        } while (k<10);;
     }
 }
