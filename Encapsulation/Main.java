@@ -9,9 +9,13 @@ public class Main {
         product.SetQuantity(5);
         product.SetDescription("Description 1");
 
+        Product product2 = new Product(2, "Product 2", 20, 10, "Description 2");
+
         ProductManager productManager = new ProductManager();   
         productManager.Add(product);
 
-        productManager.Add2(1, "Product 2", 20, 10, "Description 2");
+        productManager.Add(product2);
+
+        productManager.Add2(1, "Product 3", 20, 10, "Description 2");
     }
 }
