@@ -11,6 +11,7 @@ public class Main {
 
         Product product2 = new Product(2, "Product 2", 20, 10, "Description 2");
 
+        
         ProductManager productManager = new ProductManager();   
         productManager.Add(product);
         productManager.Add(product2);
