@@ -5,6 +5,6 @@ public class Main {
         CustomerManager customerManager = new CustomerManager();
         customerManager.databaseManager = new MySqlDatabaseManager();
         customerManager.getCustomers();
-    }
+    }   
     
 }
