@@ -59,6 +59,9 @@ public class WorkingWithFiles {
             writer.write("John Doe");
             System.out.println("Successfully wrote to the file");
             writer.close();
+        }catch (IOException e){
+            System.out.println("An error occurred");
+            e.printStackTrace();
         }
     }
 }
