@@ -6,5 +6,5 @@ public class Main {
         customers.add(new Customer());
         customers.remove(new Customer());
         customers.add(new Customer());
-    }
+    } 
 }
