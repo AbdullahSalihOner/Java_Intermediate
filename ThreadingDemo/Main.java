@@ -10,7 +10,7 @@ public class Main {
 
         chronometerThread1.start();
         chronometerThread2.start();
-        chronometerThread3.start();  
+        chronometerThread3.start();    
     }
     
 }
